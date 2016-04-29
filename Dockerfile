@@ -17,6 +17,7 @@ RUN apt-get update && apt-get install libgtk2.0-0
 
 # WVDial setup.
 
+
 # ENV INITSYSTEM on
 # RUN echo "resolvconf resolvconf/linkify-resolvconf boolean false" | debconf-set-selections
 # RUN apt-get update && apt-get install -y wvdial ifupdown resolvconf
