@@ -12,8 +12,8 @@ RUN DEBIAN_FRONTEND=noninteractive JOBS=MAX npm install --unsafe-perm --loglevel
 
 COPY app/. /usr/src/app
 
-# Xorg setup.
-
+# Display setup.
+RUN apt-get update && apt-get install libgtk2.0-0
 
 # WVDial setup.
 
