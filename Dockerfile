@@ -12,6 +12,9 @@ RUN DEBIAN_FRONTEND=noninteractive JOBS=MAX npm install --unsafe-perm --loglevel
 
 COPY app/. /usr/src/app
 
+# Xorg setup.
+
+
 # WVDial setup.
 
 # ENV INITSYSTEM on
